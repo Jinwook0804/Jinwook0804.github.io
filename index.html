@@ -3,23 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Almond.Inc</title>
+    <title>Albuquersy.Inc</title>
+    <style>
+        table,th,td {
+            border:1px solid #ccc;
+            border-collapse: collapse;
+        }
+        th,td{ padding: 10px 20px; }
+    </style>
 </head>
 <body>
-   <h1>Almond Company에 환영합니다</h1> 
+   <h1>Albuquersy Company에 환영합니다</h1> 
+    <img src="main.jpg" alt="메인이미지" width="400" height="600px">
+    <blockquote>"지금 이 순간이 결국 나의 꿈을 현실로 만드는 시간이다-스티브 잡스"</blockquote>
+
+   <h2>홈페이지 소개</h2>
+   <h3>나는</h3>
+   <p>나는 중학교 1학년 타코를 잘 먹는 <strong>Albuquersy Company 대표입니다</strong></p>
+    
+   <hr>
+
+   <h2>나의 목표</h2>
+   <h3>큰 돈 벌기</h3>
+   <p>프로그래밍을 이용해 사람들 일상을 편리하고 효율적으로 만들어 <strong>큰 돈을 버는 것이 목표입니다</strong> </p>
+
+    <hr>
+
+   <h2>나만의 팁</h2>
+   <h3>정보올림피아드 공부</h3>
+   <p>기출 문제와 비버 <b>문제를 풀어보고</b>, <b>알고리즘과 그와 관련된 수학 상식과 컴퓨터 상식들</b>을 공부하고 찾아본다</p>
+
+    <hr>
+
+   <h2>내가 좋아하는 것</h2>
+   <h3>영화</h3>
+   <p><em>범죄, 서부극, 누아르, 액션</em> 영화를 좋아합니다</p>
+
+    <hr>
+
+   <h2>내가 프로그래밍으로 만든 것</h2>
+   <h3>게임, 사이트</h3>
+   <p><i>테트리스, 카드 뒤집기 게임, 방탈출 게임, MBTI 검사</i>를 친구들 또는 선생님과 만들었습니다</p>
+
+    <hr>
+
    <p>프로그래밍 언어</p>
-   <table border="1">
-       <tr>
-            <td width="100px" height="55px">C언어</td>
-            <td width="100px" height="55px">C++</td>
-       </tr>
-       <tr>
-            <td height="55px">파이썬</td> 
-            <td height="55px">자바</td>
-       </tr>
+   <table>
+        <caption>To do List| 공부 할 것</caption>
+        <thead>
+            <tr>
+                <th>C Language</td>
+                <th>C++</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+        <td><code><pre>
+    #include &lt;stdio.h&gt;
+    int main()
+    {
+        printf("hello world")
+        return 0;
+    }
+            </pre></code></td>
+            <td><code><pre>
+    #include &lt;iostream&gt;
+    using namesapce std;
+    int main()
+    {
+        cout << "Hello World!"
+        return 0;
+    }
+                        </pre></code></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="2">요약</td></tr>
+        </tfoot>
+    </table>
+    <table>
+        <thead>
+            <tr>
+                    <th>Python</td> 
+                    <th>AI</td>
+            </tr>
+        </thead>
+        <tbody>        
+            <tr>
+                <td><code>
+                    print('Hello World')
+                <code></td>
+                <td><code>
+                    <ol>
+                        <li>Python 문법</li>
+                        <li>수학 개념</li>
+                        <li>머신 러닝 기초</li>
+                        <li>딥 러닝 입문</li>
+                        <li>실전 프로젝트</li>
+                    </ol>
+                </code></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr><td colspan="2">요약</td></tr>
+        </tfoot>
    </table>
-   <a href="./card/card.html">그림카드 게임</a>
+
+   <figure>
+        <img src="C.jpg" alt="C Language" width="400" height="400px">
+        <img src="C++.jpg" alt="C++" width="400" height="400px">
+        <img src="Python.png" alt="Python" width="400" height="400px">
+        <img src="AI.jpg" alt="AI" width="400" height="400px">
+        <figcaption>각 언어 아이콘</figcaption>
+
+   </figure>
+
+   <p>게임</p>
    <p>문제풀이</p>   
+
+   <object data="Clean.pdf" type="application/pdf" width="900" height="800"></object>
+   <hr />
+   <audio scr="dingdongdang.mp3" type="audio/mpeg"></audio>
 
 </body>
 </html>
